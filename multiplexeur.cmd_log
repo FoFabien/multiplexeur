@@ -1,0 +1,1 @@
+xst -ise "H:/tp_numerique/multiplexeur/multiplexeur.ise" -intstyle ise -ifn multiplexeur.xst -ofn multiplexeur.syr

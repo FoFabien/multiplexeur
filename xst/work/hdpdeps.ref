@@ -1,0 +1,8 @@
+V3 3
+FL //narrhavas/fforest/tp_numerique/multiplexeur/mux.vhd 2009/10/06.12:09:30 I.34
+EN work/multiplexeur 1254820053    FL //narrhavas/fforest/tp_numerique/multiplexeur/mux.vhd \
+      PB ieee/std_logic_1164 1155947332 PH ieee/NUMERIC_STD 1155947343 \
+      PB ieee/STD_LOGIC_UNSIGNED 1155947338
+AR work/multiplexeur/equation 1254820054 \
+      FL //narrhavas/fforest/tp_numerique/multiplexeur/mux.vhd \
+      EN work/multiplexeur 1254820053

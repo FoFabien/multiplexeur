@@ -1,0 +1,64 @@
+# Reading C:/Modeltech_6.2e/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.2e Nov 16 2006 
+# //
+# //  Copyright 2006 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {multiplexeur.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 6.2e Compiler 2006.11 Nov 16 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity multiplexeur
+# -- Compiling architecture equation of multiplexeur
+# vsim -lib work -t 1ps multiplexeur 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading C:\Modeltech_6.2e\win32/../std.standard
+# Loading C:\Modeltech_6.2e\win32/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_6.2e\win32/../ieee.numeric_std(body)
+# Loading C:\Modeltech_6.2e\win32/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_6.2e\win32/../ieee.std_logic_unsigned(body)
+# Loading work.multiplexeur(equation)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+do com.cmd
+# ** Error: evaluating expression "comparateur/n(3)"
+# No object found matching "comparateur".
+# Error in macro ./com.cmd line 2
+# evaluating expression "comparateur/n(3)"
+# No object found matching "comparateur".
+# 
+#     while executing
+# "vsimcmd::force -freeze sim:/comparateur/n(3) 1 0, 0 {50 ps} -r 100"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel vsimcmd::force $args"
+#     (procedure "force" line 12)
+#     invoked from within
+# "force -freeze sim:/comparateur/n(3) 1 0, 0 {50 ps} -r 100"
+do com.cmd
+# ** Error: evaluating expression "a(1)"
+# Cannot take a slice or index of non-array object "/multiplexeur/a".
+# Error in macro ./com.cmd line 6
+# evaluating expression "a(1)"
+# Cannot take a slice or index of non-array object "/multiplexeur/a".
+# 
+#     while executing
+# "vsimcmd::force -freeze sim:/multiplexeur/a(1) 0 0, 1 {50 ps} -r 100"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel vsimcmd::force $args"
+#     (procedure "force" line 12)
+#     invoked from within
+# "force -freeze sim:/multiplexeur/a(1) 0 0, 1 {50 ps} -r 100"
+do com.cmd
+# ** Warning: (vish-104) Extended identifier "\{" contains no graphic characters.** Warning: (vish-104) Extended identifier "\{" contains no graphic characters.do com.cmd
